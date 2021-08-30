@@ -35,10 +35,16 @@ body{
     color:var(--background-color);
     border-radius:0.35rem;
 }
+.primary-link:hover{
+    opacity:0.7;
+}
 .secondary-link{
     color:var(--primary-color);
     border-radius:0.35rem ;
     border: 1px solid var(--primary-color);
+}
+.secondary-link:hover{
+    opacity:0.7;
 }
 /** Lists **/
 .list-non-bullet{
@@ -50,15 +56,16 @@ body{
 }
 /** Navigation **/
 .navigation{
-    background-color:var(--primary-color);
     color:var(--background-color);
     padding:1rem;
     border-bottom-left-radius:2rem;
     border-top-right-radius: 2rem;
+    background-image:url(/Images/fabric-img.jpg);
+    font-size: x-large;
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size:1.1rem;
+    font-size:1.5rem;
 }
 .navigation .nav-pills{
     text-align:right;
@@ -87,10 +94,12 @@ body{
     margin:auto;
     display:block;
     text-align: center;
+    font-weight: bolder;
 }
 /** Sections **/
 .section{
     padding:2rem;
+    font-size: x-large;
 }
 .section h1{
     text-align:center;
@@ -105,7 +114,9 @@ body{
     border-top-right-radius: 2rem;
     border-bottom-left-radius:2rem;;
     text-align: center;
-    color:var(--background-color)
+    color:var(--background-color);
+    font-size: x-large;
+    
 }
 .footer .link{
     color: white;
@@ -113,7 +124,20 @@ body{
 .footer .footer-header{
     font-weight:bold;
     font-size:large;
+    font-size: x-large;
 }
 .footer .ul{
     padding-inline-start:0px;
 }
+/** Icons **/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .fa:hover{
+      opacity: 0.7;
+  }
