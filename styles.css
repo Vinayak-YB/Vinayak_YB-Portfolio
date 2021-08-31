@@ -12,7 +12,7 @@ body{
     background-color: var(--background-color);
 }
 .hr{
-    margin:2rem 0rem;
+    margin:1.5rem 0rem;
 }
 
 /** Container **/
@@ -61,7 +61,7 @@ body{
 }
 .list-inline{
     display:inline;
-    padding:0rem 0.5rem;
+    padding:0rem 1rem;
 }
 /** Navigation **/
 .navigation{
@@ -132,7 +132,7 @@ body{
 }
 .footer .footer-header{
     
-    font-size:large;
+    font-size:1.2rem;
 }
 .footer .ul{
     padding-inline-start:0px;
