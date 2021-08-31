@@ -93,7 +93,7 @@ body{
     padding-top:3.5rem;
 }
 .hero .hero-img{
-    max-width:400px;
+    max-width:300px;
     display:block;
     margin:auto;
     border-radius:10rem;
@@ -136,6 +136,7 @@ body{
 }
 .footer .ul{
     padding-inline-start:0px;
+    
 }
 /** Icons **/
 .fa {
