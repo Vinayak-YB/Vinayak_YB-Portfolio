@@ -133,6 +133,7 @@ body{
 .footer .footer-header{
     
     font-size:1.2rem;
+
 }
 .footer .ul{
     padding-inline-start:0px;
@@ -140,12 +141,13 @@ body{
 }
 /** Icons **/
 .fa {
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     color: white;
+    
   }
   .fa:hover{
       opacity: 0.7;
